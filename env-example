@@ -49,7 +49,7 @@ DOCKER_HOST_IP=10.0.75.1
 
 ### Remote Interpreter ####################################
 
-# Choose a Remote Interpreter entry matching name. Default is `laradock`
+# Choose a Remote Interpreter entry matching nam        e. Default is `laradock`
 PHP_IDE_CONFIG=serverName=laradock
 
 ### Windows Path ##########################################
