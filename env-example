@@ -2,6 +2,12 @@
 ###################### General Setup ######################
 ###########################################################
 
+### HOST ##################################################
+
+DB_HOST=mysql
+REDIS_HOST=redis
+QUEUE_HOST=beanstalkd
+
 ### Paths #################################################
 
 # Point to the path of your applications code on your host
@@ -45,11 +51,11 @@ PHP_INTERPRETER=php-fpm
 ### Docker Host IP ########################################
 
 # Enter your Docker Host IP (will be appended to /etc/hosts). Default is `10.0.75.1`
-DOCKER_HOST_IP=10.0.75.1
+DOCKER_HOST_IP=127.0.0.255
 
 ### Remote Interpreter ####################################
 
-# Choose a Remote Interpreter entry matching nam        e. Default is `laradock`
+# Choose a Remote Interpreter entry matching name. Default is `laradock`
 PHP_IDE_CONFIG=serverName=laradock
 
 ### Windows Path ##########################################
