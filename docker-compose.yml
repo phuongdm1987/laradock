@@ -105,6 +105,7 @@ services:
       ports:
         - "${WORKSPACE_SSH_PORT}:22"
         - "${WORKSPACE_ANGULAR_PORT}:4200"
+        - "${WORKSPACE_VUE_PORT}:8888"
       tty: true
       environment:
         - PHP_IDE_CONFIG=${PHP_IDE_CONFIG}

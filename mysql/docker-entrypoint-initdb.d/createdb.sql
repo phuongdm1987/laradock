@@ -20,8 +20,8 @@ ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
 ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY 'root';
 ALTER USER 'default'@'%' IDENTIFIED WITH mysql_native_password BY 'secret';
 
-#CREATE DATABASE IF NOT EXISTS `laravelio` COLLATE 'utf8_general_ci' ;
-#GRANT ALL ON `laravelio`.* TO 'default'@'%' ;
+CREATE DATABASE IF NOT EXISTS `backend` COLLATE 'utf8_general_ci' ;
+GRANT ALL ON `backend`.* TO 'default'@'%' ;
 
 #CREATE DATABASE IF NOT EXISTS `dev_db_2` COLLATE 'utf8_general_ci' ;
 #GRANT ALL ON `dev_db_2`.* TO 'default'@'%' ;
