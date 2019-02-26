@@ -23,8 +23,11 @@ ALTER USER 'default'@'%' IDENTIFIED WITH mysql_native_password BY 'secret';
 #CREATE DATABASE IF NOT EXISTS `laravelio` COLLATE 'utf8_general_ci' ;
 #GRANT ALL ON `laravelio`.* TO 'default'@'%' ;
 
-#CREATE DATABASE IF NOT EXISTS `dev_db_2` COLLATE 'utf8_general_ci' ;
-#GRANT ALL ON `dev_db_2`.* TO 'default'@'%' ;
+CREATE DATABASE IF NOT EXISTS `hanoiserver` COLLATE 'utf8_general_ci' ;
+GRANT ALL ON `hanoiserver`.* TO 'default'@'%' ;
+
+CREATE DATABASE IF NOT EXISTS `fsd19` COLLATE 'utf8_general_ci' ;
+GRANT ALL ON `fsd19`.* TO 'default'@'%' ;
 
 #CREATE DATABASE IF NOT EXISTS `dev_db_3` COLLATE 'utf8_general_ci' ;
 #GRANT ALL ON `dev_db_3`.* TO 'default'@'%' ;
