@@ -29,7 +29,7 @@ GRANT ALL ON `hanoiserver`.* TO 'default'@'%' ;
 CREATE DATABASE IF NOT EXISTS `fsd19` COLLATE 'utf8_general_ci' ;
 GRANT ALL ON `fsd19`.* TO 'default'@'%' ;
 
-#CREATE DATABASE IF NOT EXISTS `dev_db_3` COLLATE 'utf8_general_ci' ;
-#GRANT ALL ON `dev_db_3`.* TO 'default'@'%' ;
+CREATE DATABASE IF NOT EXISTS `vnecos` COLLATE 'utf8_general_ci' ;
+GRANT ALL ON `vnecos`.* TO 'default'@'%' ;
 
 FLUSH PRIVILEGES ;
